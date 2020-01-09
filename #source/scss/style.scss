@@ -1,0 +1,17 @@
+
+// fonts
+
+$font-stack: Helvetica, sans-serif;
+$font-stack2: Opensans, sans-serif;
+
+// colors
+
+$gray: #eee;
+
+@import 'base/fonts-and-button.scss';
+@import 'base/base.scss';
+@import 'base/header.scss';
+@import 'base/footer.scss';
+@import 'base/crumb.scss';
+
+@import 'modal/modal.scss';
