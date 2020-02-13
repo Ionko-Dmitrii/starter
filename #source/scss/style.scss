@@ -1,17 +1,16 @@
+@import '_base/fonts-and-button.scss';
+@import '_base/base.scss';
+@import '_base/header.scss';
+@import '_base/footer.scss';
+@import '_base/crumb.scss';
 
-// fonts
-
-$font-stack: Helvetica, sans-serif;
-$font-stack2: Opensans, sans-serif;
-
-// colors
-
-$gray: #eee;
-
-@import 'base/fonts-and-button.scss';
-@import 'base/base.scss';
-@import 'base/header.scss';
-@import 'base/footer.scss';
-@import 'base/crumb.scss';
-
-@import 'modal/modal.scss';
+p{
+  font-size: 60px;
+  font-weight: 300;
+}
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

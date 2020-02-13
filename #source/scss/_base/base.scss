@@ -7,7 +7,6 @@
 body {
     font-family: 'Lato';
     font-weight: normal;
-    background-color: $gray;
     @media (max-width: 1110px){
         padding-top: 70px;
     }
@@ -18,26 +17,6 @@ body {
     padding: 0 15px;
     margin: 0 auto;
 }
-
-#preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #fff;
-    z-index: 9999;
-}
-
-#status {
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin: -100px 0 0 -100px;
-}
-
 
 a {
     text-decoration: none;

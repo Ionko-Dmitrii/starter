@@ -1,25 +1,14 @@
-extends ./base/base
-
-//- connect only libs css
-block libcss 
+extends _base/base
 
 //- connect only custom css
 block css
 
 block title
-    title="Title value"
+    title="Title page"
 
 block content
-    main.index-page
-        include base/crumb.pug
-        .subtitle1 asdasd
-        p index page
-        .btn button
-    
-    include modal/modal.pug
-
-//- connect only libs js
-block libscripts
+    main
+        p Hello my friend !!!
 
 //- connect only custom js
 block scripts
