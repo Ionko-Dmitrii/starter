@@ -1,19 +1,24 @@
-@import '_base/fonts-and-button.scss';
-@import '_base/base.scss';
-@import '_base/header.scss';
-@import '_base/footer.scss';
-@import '_base/crumb.scss';
+@import 'base/_fonts-and-button';
+@import 'base/_base';
+@import 'include/_header';
+@import 'include/_footer';
 
-p{
-  font-size: 60px;
-  font-weight: 300;
-}
-img{
-  margin: 0 auto;
-}
+//include here your components or page styles
+
+
+//your style here
 body{
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  a{
+    font-size: 19px;
+  }
 }

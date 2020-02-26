@@ -10,14 +10,18 @@ html(lang="ru")
         link(rel="stylesheet" href='css/style.css')
         block title
     body
-        include header
+        include ../include/_header
         
         block content
 
-        include footer
+        include ../include/_footer
         
-        script(src='https://code.jquery.com/jquery-1.12.4.js')
-        block libscripts
+        script(
+        src="https://code.jquery.com/jquery-2.2.4.js"
+        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+        crossorigin="anonymous")
 
+        script(src='js/libs.js')
         script(src='js/main.js')
+
         block scripts
